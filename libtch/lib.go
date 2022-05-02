@@ -5,8 +5,7 @@ package libtch
 // #cgo CFLAGS: -D_GLIBCXX_USE_CXX11_ABI=1
 // #cgo LDFLAGS: -lstdc++ -ltorch -lc10 -ltorch_cpu -L/lib64
 // #cgo CXXFLAGS: -std=c++17 -I${SRCDIR} -g -O3
-// #cgo CFLAGS: -I${SRCDIR}/libtorch/lib -I${SRCDIR}/libtorch/include -I${SRCDIR}/libtorch/include/torch/csrc/api/include -I${SRCDIR}/libtorch/include/torch/csrc
-// #cgo LDFLAGS: -L${SRCDIR}/libtorch/lib
+// #cgo CFLAGS: -I/root/libtorch/lib -I/root/libtorch/include -I/root/libtorch/include/torch/csrc/api/include -I/root/libtorch/include/torch/csrc
 // #cgo LDFLAGS: -L/root/libtorch/lib
-// #cgo CXXFLAGS: -I${SRCDIR}/libtorch/lib -I${SRCDIR}/libtorch/include -I${SRCDIR}/libtorch/include/torch/csrc/api/include -I${SRCDIR}/libtorch/include/torch/csrc
+// #cgo CXXFLAGS: -I/root/libtorch/lib -I/root/libtorch/include -I/root/libtorch/include/torch/csrc/api/include -I/root/libtorch/include/torch/csrc
 import "C"
