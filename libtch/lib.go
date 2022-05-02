@@ -7,5 +7,6 @@ package libtch
 // #cgo CXXFLAGS: -std=c++17 -I${SRCDIR} -g -O3
 // #cgo CFLAGS: -I${SRCDIR}/libtorch/lib -I${SRCDIR}/libtorch/include -I${SRCDIR}/libtorch/include/torch/csrc/api/include -I${SRCDIR}/libtorch/include/torch/csrc
 // #cgo LDFLAGS: -L${SRCDIR}/libtorch/lib
+// #cgo LDFLAGS: -L/root/libtorch/lib
 // #cgo CXXFLAGS: -I${SRCDIR}/libtorch/lib -I${SRCDIR}/libtorch/include -I${SRCDIR}/libtorch/include/torch/csrc/api/include -I${SRCDIR}/libtorch/include/torch/csrc
 import "C"
