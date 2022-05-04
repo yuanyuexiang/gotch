@@ -1,7 +1,6 @@
 package libtch
 
 // #cgo CFLAGS: -I${SRCDIR} -O3 -Wall -Wno-unused-variable -Wno-deprecated-declarations -Wno-c++11-narrowing -g -Wno-sign-compare -Wno-unused-function
-// #cgo CFLAGS: -linkmode external -extldflags -static
 // #cgo CFLAGS: -I/usr/local/include
 // #cgo CFLAGS: -D_GLIBCXX_USE_CXX11_ABI=0
 // #cgo CFLAGS: -DANDROID_STL=c++_shared
