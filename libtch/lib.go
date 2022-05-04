@@ -5,8 +5,8 @@ package libtch
 // #cgo CFLAGS: -D_GLIBCXX_USE_CXX11_ABI=0
 // #cgo CFLAGS: -DANDROID_STL=c++_shared
 // #cgo LDFLAGS: -lstdc++ -ltorch -lc10 -ltorch_cpu
-// #cgo CXXFLAGS: -std=c++14 -I${SRCDIR} -g -O3 -frtti -fexceptions
-// #cgo CFLAGS: -I/root/libtorch/lib -I/root/libtorch/include -I/root/libtorch/include/torch/csrc/api/include -I/root/libtorch/include/torch/csrc
+// #cgo CXXFLAGS: -std=c++14 -I${SRCDIR} -g -O3
+// #cgo CFLAGS: -I/Users/yuanyuexiang/libtorch/lib -I/Users/yuanyuexiang/libtorch/include -I/Users/yuanyuexiang/libtorch/include/torch/csrc/api/include -I/Users/yuanyuexiang/libtorch/include/torch/csrc
 // #cgo LDFLAGS: -L/root/libtorch/lib
-// #cgo CXXFLAGS: -I/root/libtorch/lib -I/root/libtorch/include -I/root/libtorch/include/torch/csrc/api/include -I/root/libtorch/include/torch/csrc
+// #cgo CXXFLAGS: -I/Users/yuanyuexiang/libtorch/lib -I/Users/yuanyuexiang/libtorch/include -I/Users/yuanyuexiang/libtorch/include/torch/csrc/api/include -I/Users/yuanyuexiang/libtorch/include/torch/csrc
 import "C"
